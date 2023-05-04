@@ -1,0 +1,27 @@
+.body{
+    background-color: darkblue;
+}
+.janelinha{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(8, 121, 182);
+    position: absolute;
+    left: 50%;
+    top: 50vh;
+    margin-top: -100px;
+    margin-left: -150px;
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+@media print
+{
+    .BT
+    {
+        display: none;
+    }
+    .D2
+    {
+        display: none;
+    }
+}
